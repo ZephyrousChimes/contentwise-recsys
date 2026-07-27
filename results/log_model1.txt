@@ -1,0 +1,26 @@
+week 13 cand recall 0.646 0.646 0.637
+{"model": "gbdt_pop_only", "week": 13, "top_value": 0.5226, "top_norm_value": 0.1872, "top_disc": 0.2068, "top_new_slots": 0.7787, "feed.5_value": 0.8331, "feed.5_norm_value": 0.3234, "feed.5_disc": 0.0968, "feed.5_new_slots": 0.5453, "trees": 1}
+{"model": "gbdt_all", "week": 13, "top_value": 1.2432, "top_norm_value": 0.4522, "top_disc": 0.1071, "top_new_slots": 0.4222, "feed.5_value": 1.1855, "feed.5_norm_value": 0.44, "feed.5_disc": 0.1236, "feed.5_new_slots": 0.5453, "trees": 252}
+days_since    0.584
+u_eps         0.089
+u_w           0.057
+u_lastwk      0.049
+pop_1w        0.046
+trend         0.039
+ease          0.036
+u_nhist       0.030
+pop_all       0.020
+pop_2w        0.017
+n_users       0.015
+age_w         0.012
+is_film       0.006
+in_hist       0.001
+dtype: float64
+                 top_value  top_norm_value  ...  feed.5_disc  feed.5_new_slots
+model                                       ...                               
+candidate order     1.1157          0.4122  ...       0.0990            0.5453
+cw_recency          1.1078          0.4087  ...       0.0990            0.5453
+gbdt_all            1.2432          0.4522  ...       0.1236            0.5453
+gbdt_pop_only       0.5226          0.1872  ...       0.0968            0.5453
+
+[4 rows x 8 columns]
