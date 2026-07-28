@@ -1,0 +1,17 @@
+week 13 cand recall 0.655 0.656 0.645
+{"model": "gbdt_tt+ease", "week": 13, "top_value": 1.2432, "top_norm_value": 0.4523, "top_disc": 0.1105, "top_new_slots": 0.4241, "feed.5_value": 1.1851, "feed.5_norm_value": 0.44, "feed.5_disc": 0.1249, "feed.5_new_slots": 0.5453, "trees": 214, "cand_recall": 0.6453152894973755}
+days_since    0.490
+u_eps         0.108
+u_w           0.075
+in_hist       0.062
+pop_1w        0.046
+u_lastwk      0.045
+ease          0.039
+u_nhist       0.029
+dtype: float64
+              top_value  top_norm_value  ...  feed.5_disc  feed.5_new_slots
+model                                    ...                               
+cw_recency       1.1078          0.4087  ...       0.0990            0.5453
+gbdt_tt+ease     1.2432          0.4523  ...       0.1249            0.5453
+
+[2 rows x 8 columns]
