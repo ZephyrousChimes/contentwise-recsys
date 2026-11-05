@@ -5,8 +5,8 @@ A two-stage recommender for a streaming home screen, built on
 real interaction logs from a streaming service, including the recommendation lists users were
 shown, the slot each title sat in, and how far into each title they watched (`vision_factor`).
 
-The metric, the layout and the architecture were decided before any model code. The reasoning is in
-[`DECISIONS.md`](DECISIONS.md) and [`METHODOLOGY.md`](METHODOLOGY.md).
+The metric, the layout and the architecture were decided before any model code. The design notes
+are on the [`design-notes`](../../tree/design-notes) branch.
 
 ## Problem
 
